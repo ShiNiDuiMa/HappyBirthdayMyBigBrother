@@ -1,0 +1,473 @@
+
+<%-- 
+    Document   : Home.jsp
+    Created on : Mar 12, 2024, 9:41:00 AM
+    Author     : Hoangvan
+--%>
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Happy birthday</title>
+        <link rel="stylesheet" href="css/HomeCss.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+		<!-- Container wrapper -->
+		<div class="container">
+			<!-- Toggle button -->
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-mdb-toggle="collapse"
+				data-mdb-target="#navbarSupportedContent1"
+				aria-controls="navbarSupportedContent1"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+                onclick="toggleNavbar()"
+			>
+				<i class="fas fa-bars"></i>
+			</button>
+
+			<!-- Collapsible wrapper -->
+			<div class="collapse navbar-collapse" id="navbarSupportedContent1">
+				<!-- Navbar brand -->
+				<a class="navbar-brand mt-2 mt-sm-0">
+					<img
+						src="https://media2.giphy.com/media/IEm8kcqLVCctHJ1kWm/giphy.gif"
+						height="40"
+						alt="MDB Logo"
+						loading="lazy"
+					/>
+				</a>
+				<!-- Left links -->
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li
+						class="nav-item"
+						style="font-family: 'Roboto', sans-serif; font-weight: bold"
+					>
+						<a class="nav-link"><img
+						src="https://media2.giphy.com/media/IEm8kcqLVCctHJ1kWm/giphy.gif"
+						height="40"
+						alt="MDB Logo"
+						loading="lazy"
+					/></a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link"><img
+						src="https://media2.giphy.com/media/IEm8kcqLVCctHJ1kWm/giphy.gif"
+						height="40"
+						alt="MDB Logo"
+						loading="lazy"
+					/></a>
+					</li>
+				</ul>
+				<!-- Left links -->
+			</div>
+			<!-- Collapsible wrapper -->
+
+			<!-- Right elements -->
+			<div class="d-flex align-items-center">
+				<!-- Icon -->
+				<a class="nav-link me-3">
+					<img
+						src="https://media2.giphy.com/media/IEm8kcqLVCctHJ1kWm/giphy.gif"
+						height="40"
+						alt="MDB Logo"
+						loading="lazy"
+					/>
+				</a>
+				<a class="nav-link me-3">
+					<img
+						src="https://media2.giphy.com/media/IEm8kcqLVCctHJ1kWm/giphy.gif"
+						height="40"
+						alt="MDB Logo"
+						loading="lazy"
+					/>
+				</a>
+                <a class="nav-link me-3">
+					<img
+						src="https://media2.giphy.com/media/IEm8kcqLVCctHJ1kWm/giphy.gif"
+						height="40"
+						alt="MDB Logo"
+						loading="lazy"
+					/>
+				</a>
+			</div>
+			<!-- Right elements -->
+		</div>
+		<!-- Container wrapper -->
+	</nav>
+	<!-- Navbar -->
+</div>
+            <!-- Navbar -->
+
+            <!-- carousel -->
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+<!--                <div class="carousel-indicators">
+                    <button
+                        type="button"
+                        data-mdb-target="#carouselExampleCaptions"
+                        data-mdb-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1"
+                        ></button>
+                    <button
+                        type="button"
+                        data-mdb-target="#carouselExampleCaptions"
+                        data-mdb-slide-to="1"
+                        aria-label="Slide 2"
+                        ></button>
+                    <button
+                        type="button"
+                        data-mdb-target="#carouselExampleCaptions"
+                        data-mdb-slide-to="2"
+                        aria-label="Slide 3"
+                        ></button>
+                </div>-->
+</br>
+</br>
+
+</br>
+
+                <div class="carousel-inner" >
+                    <div class="carousel-item active" style="height: 600px;">
+                        <video autoplay controls class="d-block w-100" alt="Wild Landscape"/>
+                        <source src="images/video.mp4" type="video/mp4">
+                </video>
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)"></div>
+                       
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://t4.ftcdn.net/jpg/06/31/10/81/240_F_631108181_D8NQEosIiQdvs6zdaIl86hEfns2WeIHr.jpg" class="d-block w-100" alt="Camera"/>
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)"></div>
+                        <div class="carousel-caption d-none d-md-block mb-5">
+                            <h1 class="mb-4">
+                                <strong>Learn Bootstrap 5 with MDB</strong>
+                            </h1>
+
+                            <p>
+                                <strong>Best & free guide of responsive web design</strong>
+                            </p>
+
+                            <p class="mb-4 d-none d-md-block">
+                                <strong>The most comprehensive tutorial for the Bootstrap 5. Loved by over 3 000 000 users. Video and written versions
+                                    available. Create your own, stunning website.</strong>
+                            </p>
+
+                            <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start free tutorial
+                                <i class="fas fa-graduation-cap ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+<!--                    <div class="carousel-item">
+                        <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/8-col/img%285%29.jpg" class="d-block w-100" alt="Exotic Fruits"/>
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)"></div>
+                        <div class="carousel-caption d-none d-md-block mb-5">
+                            <h1 class="mb-4">
+                                <strong>Learn Bootstrap 5 with MDB</strong>
+                            </h1>
+
+                            <p>
+                                <strong>Best & free guide of responsive web design</strong>
+                            </p>
+
+                            <p class="mb-4 d-none d-md-block">
+                                <strong>The most comprehensive tutorial for the Bootstrap 5. Loved by over 3 000 000 users. Video and written versions
+                                    available. Create your own, stunning website.</strong>
+                            </p>
+
+                            <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start free tutorial
+                                <i class="fas fa-graduation-cap ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>-->
+            </div>
+
+
+        <div>
+<nav class="navbar navbar-expand-lg navbar-dark mt-3 mb-5 shadow p-2" style="background-color: #607D8B">
+                        <!-- Container wrapper -->
+                        <div class="container-fluid">
+
+                            <!-- Navbar brand -->
+                            <a class="navbar-brand" href="#">Happy 33rd birthday to my older brother</a>
+
+                            <!-- Toggle button -->
+                            <button 
+                                class="navbar-toggler" 
+                                type="button" 
+                                data-mdb-toggle="collapse" 
+                                data-mdb-target="#navbarSupportedContent2" 
+                                aria-controls="navbarSupportedContent2" 
+                                aria-expanded="false" 
+                                aria-label="Toggle navigation"
+                                onclick="toggleNavbar1()"
+                            >
+                                <i class="fas fa-bars"></i>
+                            </button>
+
+                            <!-- Collapsible wrapper -->
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <!-- Link -->
+                                    <li class="nav-item active>
+                                        <a class="nav-link text-white"  style="color: white;">Vạn sự như ý</a>
+                                    </li>
+                                    <li class="nav-item active>
+                                        <a class="nav-link text-white"  style="color: white;">Tấn tài tấn lộc</a>
+                                    </li>
+                                    <li class="nav-item active>
+                                        <a class="nav-link text-white"  style="color: white;">An khang thịnh vượng</a>
+                                    </li>
+                                </ul>
+
+                            <!-- Search -->
+                            
+
+                        </div>
+                    </div>
+                    <!-- Container wrapper -->
+                </nav>
+    </div>
+
+
+
+            <!--Main layout-->
+            <main>
+                <div class="container">
+                    <!-- Navbar -->
+
+                    <!-- Navbar -->
+
+                    <!-- Products -->
+                    <section>
+                        <div class="text-center">
+                            <form name="f" action="" method="">
+                                </br>
+                                <div class="row justify-content-center">
+
+                                    <div class="col-lg-3 col-md-6 mb-4">
+                                        <div class="card" >
+                                            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                                                 data-mdb-ripple-color="light">
+                                                <img src="images/anh1.jpg"
+                                                     class="w-100"/>
+                                                <a href="#!">
+                                                    <div class="mask">
+
+                                                    </div>
+                                                    <div class="hover-overlay">
+                                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="card-body">
+                                                <a href="" class="text-reset">
+                                                    <h5 class="card-title mb-2"></h5>Tết 2023</h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="card" >
+                                            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                                                 data-mdb-ripple-color="light">
+                                                <img src="images/anh2.jpg"
+                                                     class="w-100"/>
+                                                <a href="#!">
+                                                    <div class="mask">
+
+                                                    </div>
+                                                    <div class="hover-overlay">
+                                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="card-body">
+                                                <a href="" class="text-reset">
+                                                    <h5 class="card-title mb-2"> Chả hiểu ảnh gì</h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="card" >
+                                            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                                                 data-mdb-ripple-color="light">
+                                                <img src="images/anh3.jpg"
+                                                     class="w-100"/>
+                                                <a href="#!">
+                                                    <div class="mask">
+
+                                                    </div>
+                                                    <div class="hover-overlay">
+                                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="card-body">
+                                                <a href="" class="text-reset">
+                                                    <h5 class="card-title mb-2">Cái này từ hồi du lịch Nha Trang 2022 nè</h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="card" >
+                                            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                                                 data-mdb-ripple-color="light">
+                                                <img src="images/anh4.jpg"
+                                                     class="w-100"/>
+                                                <a href="#!">
+                                                    <div class="mask">
+
+                                                    </div>
+                                                    <div class="hover-overlay">
+                                                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="card-body">
+                                                <a href="" class="text-reset">
+                                                    <h5 class="card-title mb-2" >Cái này chắc hồi 2004-2005</h5>
+                                                </a>
+                                            </div>
+                                        </div>
+
+									</div>
+                                </div>
+                            
+                            </form>
+                        </div>
+                </section>
+
+                <!-- Pagination -->
+                
+                <!-- Pagination -->  
+            </div>
+        </main>
+        <!--Main layout-->
+        
+
+ <footer class="text-center text-white mt-4" style="background-color: #607D8B">
+
+            <!--Call to action-->
+            <div class="pt-4 pb-2">
+                <a class="btn btn-outline-white footer-cta mx-2" href="#" role="button">Be Happy
+                    <img
+						src="https://media2.giphy.com/media/Xxq7xGRiH0asGf5PXD/giphy.gif?cid=6c09b952a90jq2b75lbeiv8xo4idwhx823e69dpafgmarlr3&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s"
+						height="40"
+						alt="MDB Logo"
+						loading="lazy"
+					/>
+                </a>
+                <a class="btn btn-outline-white footer-cta mx-2"  role="button">Be Lucky
+                    <img
+						src="https://i.pinimg.com/originals/b6/39/81/b63981eeb1bf11f84f6ea80152ce2021.gif"
+						height="40"
+						alt="MDB Logo"
+						loading="lazy"
+					/>
+                </a>
+            </div>
+            <!--/.Call to action-->
+
+            <hr class="text-dark">
+
+            <div class="container">
+                <!-- Section: Social media -->
+                <section class="mb-3">
+
+                    <!-- Facebook -->
+                    <img
+						src="https://media2.giphy.com/media/IEm8kcqLVCctHJ1kWm/giphy.gif"
+						height="40"
+						alt="MDB Logo"
+						loading="lazy"
+					/>
+
+                    <!-- Twitter -->
+                    <img
+						src="https://media2.giphy.com/media/IEm8kcqLVCctHJ1kWm/giphy.gif"
+						height="40"
+						alt="MDB Logo"
+						loading="lazy"
+					/>
+
+                    <!-- Google -->
+                    <img
+						src="https://media2.giphy.com/media/IEm8kcqLVCctHJ1kWm/giphy.gif"
+						height="40"
+						alt="MDB Logo"
+						loading="lazy"
+					/>
+
+                    <!-- Instagram -->
+                    <img
+						src="https://media2.giphy.com/media/IEm8kcqLVCctHJ1kWm/giphy.gif"
+						height="40"
+						alt="MDB Logo"
+						loading="lazy"
+					/>
+
+                    <!-- YouTube -->
+                    <img
+						src="https://media2.giphy.com/media/IEm8kcqLVCctHJ1kWm/giphy.gif"
+						height="40"
+						alt="MDB Logo"
+						loading="lazy"
+					/>
+                    <!-- Github -->
+                    <img
+						src="https://media2.giphy.com/media/IEm8kcqLVCctHJ1kWm/giphy.gif"
+						height="40"
+						alt="MDB Logo"
+						loading="lazy"
+					/>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); text-color: #E0E0E0">
+                At last, happy birthday to my big brother again
+                <a class="text-white" href="#"><img
+						src="https://media0.giphy.com/media/s5pqEUOsNQISDw6Eu7/giphy-preview.gif"
+						height="40"
+						alt="MDB Logo"
+						loading="lazy"
+					/></a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+<script>
+    function toggleNavbar() {
+        var navbarCollapse = document.getElementById('navbarSupportedContent1');
+        navbarCollapse.classList.toggle('show');
+    }
+    function toggleNavbar1() {
+        var navbarCollapse = document.getElementById('navbarSupportedContent2');
+        navbarCollapse.classList.toggle('show');
+    }
+</script>
+    </body>
+</html>
+<!--<script type="text/javascript">
+    function buy(id) {
+        var m = document.f.num.value;
+        document.f.action = "buy?id=" + id + "&num=" + m;
+        document.f.submit();
+    }
+</script>-->
